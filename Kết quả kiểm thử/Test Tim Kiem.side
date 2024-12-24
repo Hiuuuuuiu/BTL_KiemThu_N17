@@ -1,0 +1,575 @@
+{
+  "id": "a583627f-8469-4682-aa6b-2bbeb2efeddf",
+  "version": "2.0",
+  "name": "Test Tìm Kiếm",
+  "url": "https://canifa.com/",
+  "tests": [{
+    "id": "623b380f-71b6-4257-9945-6d38b6c39a21",
+    "name": "TC_001",
+    "commands": [{
+      "id": "fa61ba61-7f7b-4cb2-995e-bd842644483c",
+      "comment": "",
+      "command": "open",
+      "target": "https://canifa.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae98f92e-4fe1-4c73-b38a-b75bcdcb102a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1365d0f8-eb49-4080-94e1-992537a39b34",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,574)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f258275-2254-450c-8795-86806cb6dae8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-input",
+      "targets": [
+        ["css=.search-input", "css:finder"],
+        ["xpath=//input[@name='']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29591984-c7df-4957-886b-e12b35e5fbf1",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-input-focus",
+      "targets": [
+        ["id=search-input-focus", "id"],
+        ["css=#search-input-focus", "css:finder"],
+        ["xpath=//input[@id='search-input-focus']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13cea131-d029-4e2e-8100-1a658ce55e12",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-input-focus",
+      "targets": [
+        ["id=search-input-focus", "id"],
+        ["css=#search-input-focus", "css:finder"],
+        ["xpath=//input[@id='search-input-focus']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "áo phông"
+    }, {
+      "id": "0c090cd1-f022-4ac7-89a3-dcdbd97538d4",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-input-focus",
+      "targets": [
+        ["id=search-input-focus", "id"],
+        ["css=#search-input-focus", "css:finder"],
+        ["xpath=//input[@id='search-input-focus']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "87af6bad-9741-4a86-8465-303047b2d243",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(5) > a",
+      "targets": [
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//div[@id='app']/div/header/div/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/boy')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b069a68-227d-40f8-9bb8-9d08731c442f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.header-menu > ul > li:nth-child(5) > a",
+      "targets": [
+        ["css=.header-menu > ul > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//div[@id='app']/div/header/div/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/boy')]", "xpath:href"],
+        ["xpath=//header/div/div[2]/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51414b37-0e66-402f-8ee5-7d6ebdd47dfc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,79)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a01a441a-e586-4ccd-bd15-b7b456837a1b",
+    "name": "TC_002",
+    "commands": [{
+      "id": "24067b70-4587-4d04-970c-30fdc1215067",
+      "comment": "",
+      "command": "open",
+      "target": "https://canifa.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16618317-9b00-473c-bc85-54b4859f59dc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51dc4a1c-40ca-4e32-b12e-2cab511d6044",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,574)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23d94e1d-66f5-4e53-aaaf-425673470a2c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-input",
+      "targets": [
+        ["css=.search-input", "css:finder"],
+        ["xpath=//input[@name='']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23aefe59-8aba-4583-9917-830b0b78c5e0",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-input-focus",
+      "targets": [
+        ["id=search-input-focus", "id"],
+        ["css=#search-input-focus", "css:finder"],
+        ["xpath=//input[@id='search-input-focus']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27d3db09-f7e3-4fe8-883f-327a2af871a1",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-input-focus",
+      "targets": [
+        ["id=search-input-focus", "id"],
+        ["css=#search-input-focus", "css:finder"],
+        ["xpath=//input[@id='search-input-focus']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Tay cầm chơi game"
+    }, {
+      "id": "f1969462-4b55-4b95-8519-301239b59fc8",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-input-focus",
+      "targets": [
+        ["id=search-input-focus", "id"],
+        ["css=#search-input-focus", "css:finder"],
+        ["xpath=//input[@id='search-input-focus']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "bf8cb994-a7c9-42eb-8418-b60c297d0f29",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(5) > a",
+      "targets": [
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//div[@id='app']/div/header/div/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/boy')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "972a3f39-55ea-4347-ba2e-132513aa4a86",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.header-menu > ul > li:nth-child(5) > a",
+      "targets": [
+        ["css=.header-menu > ul > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//div[@id='app']/div/header/div/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/boy')]", "xpath:href"],
+        ["xpath=//header/div/div[2]/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b3271b0-bf7e-447b-b9fe-ed488018fea6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,79)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "87ab6af6-3f96-42ac-a60d-1ebdad9d5cbc",
+    "name": "TC_003",
+    "commands": [{
+      "id": "15129201-3eed-47c8-b55a-ccc1a70de4ef",
+      "comment": "",
+      "command": "open",
+      "target": "https://canifa.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14de5135-0cb3-4167-bc09-f590ee0fac45",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "410bdea1-d62f-460c-a7fd-bcf0f81e215e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,574)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b93007ca-ec33-4f04-9e04-31aeffd59a29",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-input",
+      "targets": [
+        ["css=.search-input", "css:finder"],
+        ["xpath=//input[@name='']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5dc3b9e-a2db-43ed-968c-fcb1ec74a893",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-input-focus",
+      "targets": [
+        ["id=search-input-focus", "id"],
+        ["css=#search-input-focus", "css:finder"],
+        ["xpath=//input[@id='search-input-focus']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "109f5e03-8e75-417e-b793-54f486569b70",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-input-focus",
+      "targets": [
+        ["id=search-input-focus", "id"],
+        ["css=#search-input-focus", "css:finder"],
+        ["xpath=//input[@id='search-input-focus']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Quaan"
+    }, {
+      "id": "9ab10609-cb4e-4315-bf1c-117ef708e27c",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-input-focus",
+      "targets": [
+        ["id=search-input-focus", "id"],
+        ["css=#search-input-focus", "css:finder"],
+        ["xpath=//input[@id='search-input-focus']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "3bedb73d-7a52-4bac-8a27-1d79870a2c25",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(5) > a",
+      "targets": [
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//div[@id='app']/div/header/div/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/boy')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbc7e27e-b9c2-4733-b4b6-74bd87675353",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,79)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a6823189-597c-4ad5-a005-2d0bc96bda87",
+    "name": "TC_004",
+    "commands": [{
+      "id": "01f9a084-5377-4353-8b69-5c2977ea05a7",
+      "comment": "",
+      "command": "open",
+      "target": "https://canifa.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c993efb7-434b-4550-bb70-7d47846d59d0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d35db7b-c2e7-452d-b5fb-b9a5710b8540",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,574)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0c8db52-ebbb-4fc4-a835-52959ca02a02",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-input",
+      "targets": [
+        ["css=.search-input", "css:finder"],
+        ["xpath=//input[@name='']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac0a96b6-0a68-4a6b-b1dc-08d191136d5b",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-input-focus",
+      "targets": [
+        ["id=search-input-focus", "id"],
+        ["css=#search-input-focus", "css:finder"],
+        ["xpath=//input[@id='search-input-focus']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "395e98ab-5342-4b19-b2dd-e8beeb27b5ed",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-input-focus",
+      "targets": [
+        ["id=search-input-focus", "id"],
+        ["css=#search-input-focus", "css:finder"],
+        ["xpath=//input[@id='search-input-focus']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Shirt"
+    }, {
+      "id": "dad78f40-9de1-4f27-84bd-a70aa40bafda",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-input-focus",
+      "targets": [
+        ["id=search-input-focus", "id"],
+        ["css=#search-input-focus", "css:finder"],
+        ["xpath=//input[@id='search-input-focus']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "9381e608-55bc-492a-98fc-0a0cbf283588",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,79)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9461d56f-8059-45a1-82ba-965d64348f70",
+    "name": "TC_005",
+    "commands": [{
+      "id": "376b9081-f56b-4f62-896a-ddff02166f9d",
+      "comment": "",
+      "command": "open",
+      "target": "https://canifa.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "794f308d-2439-4e46-9720-ad80e8b47405",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9346f766-9eff-4751-a965-9f3d0c4b679a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,574)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "78d3a41b-b55e-40cc-988d-d34638b4196c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-input",
+      "targets": [
+        ["css=.search-input", "css:finder"],
+        ["xpath=//input[@name='']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2eeb6a04-86ef-4a57-9c39-23e125d2d2a7",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-input-focus",
+      "targets": [
+        ["id=search-input-focus", "id"],
+        ["css=#search-input-focus", "css:finder"],
+        ["xpath=//input[@id='search-input-focus']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7c3ade1-967c-4b26-9d7b-fa41aa84450f",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-input-focus",
+      "targets": [
+        ["id=search-input-focus", "id"],
+        ["css=#search-input-focus", "css:finder"],
+        ["xpath=//input[@id='search-input-focus']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Quần, giày"
+    }, {
+      "id": "8cc861e9-3776-444b-a32c-ff79278202d5",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-input-focus",
+      "targets": [
+        ["id=search-input-focus", "id"],
+        ["css=#search-input-focus", "css:finder"],
+        ["xpath=//input[@id='search-input-focus']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "f164e040-905f-49cc-9d25-a3f8a3b31820",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,79)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "589959f0-7282-4e96-91b3-3d460b99bce1",
+    "name": "TC_006",
+    "commands": [{
+      "id": "82c015c7-f607-4904-8aa5-70f6690c084f",
+      "comment": "",
+      "command": "open",
+      "target": "https://canifa.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05900bf7-1a0b-480b-82e2-669cacb1576d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92fd7869-f459-4675-85c2-747e9d2c4730",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,574)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d7088c4-0813-49cf-be64-ec2a5159894b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-input",
+      "targets": [
+        ["css=.search-input", "css:finder"],
+        ["xpath=//input[@name='']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bacf797-6e87-4e4b-9aaf-1a6748edd447",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-input-focus",
+      "targets": [
+        ["id=search-input-focus", "id"],
+        ["css=#search-input-focus", "css:finder"],
+        ["xpath=//input[@id='search-input-focus']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "990f9430-f64f-4e7e-82ae-9b9bfe4b8ba0",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-input-focus",
+      "targets": [
+        ["id=search-input-focus", "id"],
+        ["css=#search-input-focus", "css:finder"],
+        ["xpath=//input[@id='search-input-focus']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Qu@n"
+    }, {
+      "id": "3a8a94bf-2135-4689-b606-ec42146ff8ea",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-input-focus",
+      "targets": [
+        ["id=search-input-focus", "id"],
+        ["css=#search-input-focus", "css:finder"],
+        ["xpath=//input[@id='search-input-focus']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "5b2fceb5-689c-4929-86d9-7b8eb7ca9abb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,79)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4a4ebb1a-61b2-453b-b7cd-eef11ae92637",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["623b380f-71b6-4257-9945-6d38b6c39a21"]
+  }],
+  "urls": ["https://canifa.com/"],
+  "plugins": []
+}
